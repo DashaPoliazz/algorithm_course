@@ -47,4 +47,8 @@ export class Queue<T> {
 
     return head.val;
   }
+
+  peek(): T | undefined {
+    return this.head?.val;
+  }
 }
