@@ -1,4 +1,6 @@
-import maze_solver, { Point } from "../../../recursion/problems/MazeSolver";
+import maze_solver, {
+  Point,
+} from "../../../../recursion/problems/mazeSolver/MazeSolver";
 
 test("maze solver", function () {
   const maze = [
