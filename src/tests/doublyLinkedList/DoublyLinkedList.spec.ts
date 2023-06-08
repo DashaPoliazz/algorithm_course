@@ -1,5 +1,5 @@
-import DoublyLinkedList from "../../dataStructures/doublyLinkedList";
-import { Node } from "../../dataStructures/doublyLinkedList";
+import DoublyLinkedList from "../../dataStructures/doublyLinkedList/doublyLinkedList";
+import { Node } from "../../dataStructures/doublyLinkedList/doublyLinkedList";
 
 describe("DoublyLinkedList", () => {
   let list: DoublyLinkedList<number>;
