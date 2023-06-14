@@ -1,8 +1,8 @@
-import { BinaryNode } from "../../../dataStructures/trees/treeTraversing/postOrderSearch";
+import { BinaryNode } from "../../../../dataStructures/trees/binaryTrees/treeTraversing/postOrderSearch";
 import {
   preOrderSearch,
   walk,
-} from "../../../dataStructures/trees/treeTraversing/preOrderSearch";
+} from "../../../../dataStructures/trees/binaryTrees/treeTraversing/preOrderSearch";
 
 describe("preOrderSearch", () => {
   // Helper function to create a binary tree

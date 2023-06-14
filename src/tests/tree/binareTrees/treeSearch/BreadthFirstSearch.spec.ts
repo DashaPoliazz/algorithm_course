@@ -1,5 +1,5 @@
-import bfs from "../../../dataStructures/trees/treeSearch/BreadthFirstSearch";
-import { BinaryNode } from "../../../dataStructures/trees/treeTraversing/inOrderSearch";
+import bfs from "../../../../dataStructures/trees/binaryTrees/treeSearch/BreadthFirstSearch";
+import { BinaryNode } from "../../../../dataStructures/trees/binaryTrees/treeTraversing/inOrderSearch";
 
 export const tree: BinaryNode<number> = {
   value: 20,

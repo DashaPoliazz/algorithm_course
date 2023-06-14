@@ -1,4 +1,4 @@
-import { Queue } from "../../../algorithms/queue/queue";
+import { Queue } from "../../../../algorithms/queue/queue";
 
 declare type BinaryNode<T> = {
   value: T;
